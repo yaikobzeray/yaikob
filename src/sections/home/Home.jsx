@@ -44,7 +44,7 @@ function Home({ click }) {
 
       <div className="bg-transparent mr-20 ml-20 flex w=100 justify-between mt-20 " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div className="bg-transparent  ">
-          <img src="../assets/photos/icon.svg" className="h-40 w-40 ml-16 bg-transparent hidden  md:block " alt="" />
+          <img src=".src/assets/photos/icon.svg" className="h-40 w-40 ml-16 bg-transparent hidden  md:block " alt="" />
         </div>
         <div className="bg-transparent description w-80">
           <p className='bg-transparent w-70 font-lato text-base font-normal mb-2 txet-[#433E49]'>
