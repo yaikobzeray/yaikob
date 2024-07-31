@@ -1,0 +1,39 @@
+.web-img{
+    background-image: url('/src/assets/photos/web-img.svg');
+   height: 300px;
+   width: 380px;
+    border-radius: 20px;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.pc{
+ width: 390px;
+ height: 321px;
+ border-radius: 20px;
+ padding: 5px ;
+ border: 2px rgba(0, 0, 0, 0.1) solid;
+}
+
+.phone-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 80px;
+ height: 182px;
+ border-radius: 8px;
+
+ border: 2px rgba(0, 0, 0, 0.1) solid;
+}
+
+.phone-img{
+    background-image: url('/src/assets/photos/app-img.jpg');
+    width: 78px;
+    height: 176px;
+    margin-top: 2px;
+    border-radius: 8px;
+    background-size: cover;
+}

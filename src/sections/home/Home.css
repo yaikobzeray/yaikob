@@ -1,0 +1,30 @@
+/* src/styles/global.css */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF7F3;
+}
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('/src/assets/fonts/NicoMoji-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Lato';
+    src: url('/src/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Lato';
+    src: url('/src/assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Lato';
+    src: url('/src/assets/fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+  }
