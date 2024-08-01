@@ -94,15 +94,15 @@ function Contact({ reference }) {
                     data-aos="fade-up"
                     data-aos-anchor-placement="right-bottom"
                     className="w-full mb-20 md:h-screen md:flex md:justify-center">
-                    <div className="w-1/2 h-96 pt-28">
-                        <span className="font-lato bg-transparent text-[#928490] text-2xl font-normal">
+                    <div className=" w-full md:w-1/2 h-96 pt-28">
+                        <span className="font-lato bg-transparent text-[#928490] text-2xl font-normal w-full flex justify-center md:w-auto md:block">
                             Contact Me  
                         </span>
                         <div className="ml-24 mt-14">
                             <p className="font-lato text-sm w-80">
                             Got a brilliant idea? 💡
                             I'm all ears and excited to chat about it!😊✨</p>
-                            <div className="">
+                            <div className="w-80">
                                 <form ref={form} onSubmit={sendEmail}>
                                     <input
                                         type="text"
@@ -134,7 +134,8 @@ function Contact({ reference }) {
                                     {errors.message && <p className="text-red-500">{errors.message}</p>}
                                     
                                     <br />
-                                    <div className="w-1/2 flex justify-center">
+                                    
+                                    <div className="w-full  flex justify-center ">
                                         <input
                                             type="submit"
                                             value="Send"
@@ -149,9 +150,9 @@ function Contact({ reference }) {
                             </div>
                         </div>
                     </div>
-                    <div className="pt-40">
+                    <div className="pt-40 px-10 md:px-0">
                         <div className="h-80 flex flex-col justify-around border py-10 px-20 rounded-lg bg-[#433E49]">
-                            <div className="flex justify-around bg-transparent">
+                            <div className="flex md:justify-around bg-transparent">
                                 <MdEmail className="text-4xl bg-[#433E49] text-[#FFF7F3]" />
                                 <span className="font-lato text-sm ml-4 bg-[#433E49] text-[#FFF7F3]">
                                     yaikobzeray@gmail.com

@@ -27,16 +27,16 @@ function Services() {
 
     return (
         <div data-aos="fade-up" data-aos-anchor-placement="right-bottom" className="h-screen">
-            <div className="md:px-40  py-16">
+            <div className="md:px-40  py-16  w-full flex justify-center md:w-auto md:block">
                 <p className='font-lato bg-transparent text-[#928490] text-2xl font-normal'>
                     Services
                 </p>
             </div>
 
-            <div className="flex h-1/2 w-full justify-center items-center mt-20">
+            <div className="flex h-1/2 w-full justify-center items-center mt-20 md:mt-0">
                 <ul className=" md:grid md:grid-cols-2 md:gap-10 ">
                     {services.map(service => (
-                        <li key={service.id} className="mt-5">
+                        <li key={service.id} className="mt-5 md:mt-0">
                             <div className="flex w-96">
                                 <div>
                                     <service.icon className="text-6xl text-[#433E49]" />

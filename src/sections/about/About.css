@@ -3,8 +3,6 @@
     justify-content: space-between;
     height: 455px;
     width: 245px;
- 
-
 }
 
 .phone-frame {
@@ -17,48 +15,34 @@
     margin-top: 30px;
     background-color: #433E49;
     border: 1px #433E49 solid;
-    display: flex;
     justify-content: space-between;
-
-
-
-
 }
 
- .phone-frame .img-holder {
+.phone-frame .img-holder {
     height: 445px;
     width: 235px;
     border-radius: 30px;
     background-image: url('/src/assets/photos/profile.png');
     background-size: cover;
-    display: flex;
     justify-content: center;
     background-color: transparent;
-
 }
 
 .img-holder .camera-holder {
-    /* display: flex;
-    justify-content: end; */
     padding: 0px;
     margin-top: 10px;
     width: 60px;
     height: 20px;
     border-radius: 10px;
     background-color: #433E49;
-
-
 }
 
 .camera {
-   
     background-color: hsla(0, 0%, 100%, 0.1);
     border: 3px #00000078 solid;
- 
-
 }
 
-.phone .vol{
+.phone .vol {
     width: 0.5px;
     background-color: transparent;
 }
@@ -68,28 +52,24 @@
     height: 30px;
     background-color: rgba(29, 29, 29, 0.863);
     border: 1px rgba(255, 255, 255, 0.2) solid;
-   margin-left: -2px;
+    margin-left: -2px;
     border-radius: 1px;
-
-
 }
 
 .vol-inc {
-
     margin-top: 100px;
 }
 
 .power-btn {
-
     width: 1px;
     height: 35px;
     background-color: rgba(29, 29, 29, 0.863);
     border: 1px rgba(255, 255, 255, 0.2) solid;
     margin-top: 55%;
-
 }
 
-.pTxt{
-    width: 75%;
+.pTxt {
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
 }
-

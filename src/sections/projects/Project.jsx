@@ -16,16 +16,15 @@ function Projects() {
 
     return (
         <>
-            <div className="flex  md:h-screen  " data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+            <div className="md:flex  md:h-screen  " data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
                 <div className=' md:block'>
-                    <div className="w-full flex justify-center pt-20 pb-8">
+                    <div className="w-full flex justify-center mt-20 pb-8">
                         <p className=' font-lato bg-transparent text-[#928490] text-2xl font-normal'>Projects</p>
                     </div>
                     <div className=" hidden md:flex md:h-full  md:ml-32">
 
                         <div className="pc">
                             <div className="web-img">
-
                             </div>
 
                         </div>
@@ -38,7 +37,9 @@ function Projects() {
 
                 </div>
 
+                <div className="w-full flex justify-center md:block md:w-auto">
                 <ProjectCard />
+                </div>
             </div>
         </>
     );

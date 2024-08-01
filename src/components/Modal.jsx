@@ -19,8 +19,8 @@ function Modal({onClose,content}) {
 
     return (<>
         <div ref={modalRef} onClick={closeModal} className=" fixed inset-0 bg-[#928490] bg-opacity-40 backdrop-blur-sm flex items-center justify-end z-20" >
-            <div className="flex items-start bg-transparent mt-40">
-                <div className="text-[#433E49] bg-[#FFF7F3] p-10 rounded-xl mt-10 ml-10 modal">
+            <div className="flex justify-center md:justify-end w-full items-start bg-transparent mt-40">
+                <div className="text-[#433E49] bg-[#FFF7F3] p-10 rounded-xl mt-10 md:ml-10 modal">
 
                     <div className="w-80">
                         <div className=" flex justify-start w-full ">
@@ -37,7 +37,7 @@ function Modal({onClose,content}) {
 
 
                 </div>
-                <button onClick={()=>onClose()}><AiOutlineClose size={30} className=" bg-transparent text-[#433E49] mr-14" /></button>
+                <button onClick={()=>onClose()}><AiOutlineClose size={30} className="hidden md:block bg-transparent text-[#433E49] mr-14" /></button>
             </div>
 
 
