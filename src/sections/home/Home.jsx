@@ -39,7 +39,7 @@ function Home({ click }) {
       <div className="pt-20 md:pt-0">
         
       <div className="bg-transparent px-4 md:px-20 flex flex-col md:flex-row justify-between mt-10 md:mt-20" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <div className="bg-transparent">
+        <div className="bg-transparent md:w-1/4 md:flex md:justify-center">
           <img src="icon.svg" className="h-20 w-20 md:h-40 md:w-40 mx-auto md:mx-0 bg-transparent hidden md:block" alt="logo" />
         </div>
         <div className="bg-transparent description w-full md:w-80 mt-4 md:mt-0">
