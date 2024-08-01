@@ -110,18 +110,18 @@ function About() {
                         </p>
                     </div>
                     <div>
-                        <div className="mt-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                        <div className="mt-5 ml-14 md:ml-0" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                             <span className='font-lato bg-transparent text-[#928490] text-base font-normal mt-4'>Skills</span>
-                            <div className="flex flex-wrap justify-between mt-5 ml-0 md:ml-5" data-aos="fade-right">
+                            <div className="md:w-2/3 md:flex md:flex-wrap md:justify-between flex w-80 justify-between mt-5 ml-0 md:ml-5" data-aos="fade-right">
                                 <RiFlutterFill onMouseEnter={() => { setShowModal(true); setModalContent(description.flutter); }} className='h-10 w-10 text-[#433E49] mx-2' />
                                 <FaReact onMouseEnter={() => { setShowModal(true); setModalContent(description.murn); }} className='h-10 w-10 text-[#433E49] mx-2' />
                                 <BsDatabaseFillGear onMouseEnter={() => { setShowModal(true); setModalContent(description.backend); }} className='h-10 w-10 text-[#433E49] mx-2' />
                                 <FaFigma onMouseEnter={() => { setShowModal(true); setModalContent(description.figma); }} className='h-10 w-10 text-[#433E49] mx-2' />
                             </div>
                         </div>
-                        <div className='mt-5'>
+                        <div className='mt-5 ml-14 md:ml-0'>
                             <span className='font-lato bg-transparent text-[#928490] text-base font-normal mt-4'>More</span>
-                            <div className="flex  justify-around pt-4" data-aos="fade-right">
+                            <div className="flex flex-wrap   justify-around pt-4" data-aos="fade-right">
                                 <Card title="Git" subtitle="I have extensive experience using Git for version control, ensuring efficient collaboration and management of code across various projects." Icon={FaGitAlt} href="#" />
                                 <Card title="Firebase" subtitle="I'm a Software engineer based in Addis Ababa. I specialize in Mobile App and WebApp design and development. Currently, I’m a freelancer." Icon={RiFirebaseFill} href="#" />
                             </div>

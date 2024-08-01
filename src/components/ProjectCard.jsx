@@ -182,7 +182,7 @@ function ProjectCard(props) {
         <>
             <div className="bg-transparent md:ml-24" data-aos="fade-right"  >
                 <div className="flex justify-center ">
-                    <ul className="grid grid-cols-2 gap-10 md:mt-36 md:ml-10">
+                    <ul className="grid grid-cols-2 gap-10 md:mt-36 ml-2 md:ml-10">
                         {state.items.map(item => (
                             <li key={item.id} onClick={() => handleClick(item)}>
                                 <div

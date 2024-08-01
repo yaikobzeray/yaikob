@@ -98,11 +98,12 @@ function Contact({ reference }) {
                         <span className="font-lato bg-transparent text-[#928490] text-2xl font-normal w-full flex justify-center md:w-auto md:block">
                             Contact Me  
                         </span>
-                        <div className="ml-24 mt-14">
-                            <p className="font-lato text-sm w-80">
+                        <div className="mt-14 w-full flex justify-center">
+                          <div className="w-auto ml-10 md:ml-0">
+                          <p className="font-lato text-sm w-80">
                             Got a brilliant idea? 💡
                             I'm all ears and excited to chat about it!😊✨</p>
-                            <div className="w-80">
+                            <div className="md:w-80">
                                 <form ref={form} onSubmit={sendEmail}>
                                     <input
                                         type="text"
@@ -149,17 +150,18 @@ function Contact({ reference }) {
                                 </div>}
                             </div>
                         </div>
+                          </div>
                     </div>
                     <div className="pt-40 px-10 md:px-0">
                         <div className="h-80 flex flex-col justify-around border py-10 px-20 rounded-lg bg-[#433E49]">
                             <div className="flex md:justify-around bg-transparent">
-                                <MdEmail className="text-4xl bg-[#433E49] text-[#FFF7F3]" />
+                                <MdEmail className="text-4xl bg-transparent text-[#FFF7F3] hidden md:block" />
                                 <span className="font-lato text-sm ml-4 bg-[#433E49] text-[#FFF7F3]">
                                     yaikobzeray@gmail.com
                                 </span>
                             </div>
                             <div className="flex bg-transparent">
-                                <IoCall className="text-4xl bg-transparent text-[#FFF7F3]" />
+                                <IoCall className="text-4xl bg-transparent text-[#FFF7F3] hidden md:block" />
                                 <div className="flex flex-col ml-4 bg-transparent">
                                     <span className="font-lato text-sm bg-transparent text-[#FFF7F3]">
                                         +251905221804
@@ -170,7 +172,7 @@ function Contact({ reference }) {
                                 </div>
                             </div>
                             <div className="flex bg-transparent text-[#FFF7F3]">
-                                <IoLocation className="text-4xl bg-transparent" />
+                                <IoLocation className="text-4xl bg-transparent hidden md:block" />
                                 <div className="flex flex-col ml-4 bg-transparent">
                                     <span className="font-lato text-sm bg-transparent text-[#FFF7F3]">
                                         Ethiopia,
