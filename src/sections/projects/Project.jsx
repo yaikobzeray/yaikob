@@ -37,7 +37,7 @@ function Projects() {
 
                 </div>
 
-                <div className="w-96 flex justify-center md:block md:w-auto">
+                <div className="w-80flex justify-center md:block md:w-auto">
                 <ProjectCard />
                 </div>
             </div>

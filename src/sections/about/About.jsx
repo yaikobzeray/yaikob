@@ -132,7 +132,7 @@ function About() {
 
             <div className="w-full md:w-80 h-10 mt-10 md:mt-20">
                 <button data-aos="fade-up" data-aos-anchor-placement="center-bottom" ref={btnRef} className="flex justify-center relative w-full overflow-hidden rounded-lg bg-[#928490] px-4 py-3 text-lg font-medium text-white">
-                    <a href="https://drive.google.com/uc?export=download&id=13AeUw6Ma4rrm3URm5PrG-HqHb9LVMzrB" download='Yaikob-Zeray.pdf' className='none bg-transparent'>
+                    <a href="https://drive.google.com/uc?export=download&id=1AHl5ZDSTN1tcYlsw1D3pJuIRkolZAq5R" download='Yaikob-Zeray.pdf' className='none bg-transparent'>
                         <span className="flex justify-between w-12 items-center font-lato font-normal pointer-events-none relative z-10 mix-blend-difference bg-transparent">
                             <BsDownload className='bg-transparent' /> CV
                         </span>
